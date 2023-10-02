@@ -1,0 +1,157 @@
+.dueDate {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.dueDateWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.vectorIcon {
+  position: relative;
+  width: 1.75px;
+  height: 8.75px;
+}
+.vectorParent {
+  position: absolute;
+  top: 6.13px;
+  left: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.5px;
+}
+.vectorIcon2 {
+  position: absolute;
+  height: 54.33%;
+  width: 93.17%;
+  top: 22.83%;
+  right: 3.42%;
+  bottom: 22.83%;
+  left: 3.42%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  display: none;
+}
+.dueDate1,
+.settingsEthernet1 {
+  position: relative;
+  flex-shrink: 0;
+}
+.settingsEthernet1 {
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.dueDate1 {
+  line-height: 20px;
+  display: inline-block;
+  width: 146px;
+  opacity: 0.8;
+}
+.frameChild {
+  position: relative;
+  border-radius: 50%;
+  background-color: #fff;
+  width: 10px;
+  height: 10px;
+}
+.switchInner {
+  position: absolute;
+  top: 7px;
+  left: 1px;
+  border-radius: 200px;
+  background-color: #f90;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2px 2px 2px 14px;
+}
+.switch {
+  position: relative;
+  width: 28px;
+  height: 28px;
+}
+.frameParent,
+.frameWrapper,
+.switchInner2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.frameParent {
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+  align-items: center;
+  padding: 4px 10px 4px 1px;
+  gap: 13px;
+}
+.frameWrapper,
+.switchInner2 {
+  align-items: flex-start;
+}
+.switchInner2 {
+  position: absolute;
+  top: 7px;
+  left: 1px;
+  border-radius: 200px;
+  background-color: rgba(255, 255, 255, 0.3);
+  align-items: center;
+  padding: 2px 14px 2px 2px;
+}
+.uplusIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameParent5 {
+  flex: 1;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.32);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 12px 6px 1px;
+}
+.componentParent,
+.frameWrapper4,
+.settingCollumn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper4 {
+  align-self: stretch;
+  flex-direction: row;
+}
+.componentParent,
+.settingCollumn {
+  flex-direction: column;
+  gap: 6px;
+}
+.settingCollumn {
+  position: relative;
+  border-radius: 6px;
+  background-color: #575757;
+  box-shadow: 0 8px 24px -4px rgba(27, 46, 94, 0.08);
+  padding: 16px;
+  box-sizing: border-box;
+  gap: 14px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: left;
+  font-size: 14px;
+  color: #fff;
+  font-family: Inter;
+}
